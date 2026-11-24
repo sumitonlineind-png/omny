@@ -388,12 +388,13 @@ s1.onload=()=>{const s2=document.createElement("script");s2.src=c.config;s2.defe
 document.body.appendChild(s1);$("#askdoubt").classList.add("bp-live");$("#adBP").hidden=false;const t=$("#askdoubt .hd .tag");if(t)t.textContent="AI Tutor"}
 pills();usage();rh();empty();loadBP();
 })();
+
 </script><link rel="stylesheet" href="https://vdk-viber-runtime-prod.bot.botpress.host/edge/webchat.css" />
 <script src="https://vdk-viber-runtime-prod.bot.botpress.host/edge/webchat.js"></script>
 <script>
   fetch("https://vdk-viber-runtime-prod.bot.botpress.host/edge/bots/c438fa25-e598-49a1-b9d9-32f6f7155aee/config")
     .then((res) => res.json())
     .then(({ webchat }) =>
-      VdkEdgeWebchat.mount({ ...webchat, mode: "standalone", baseUrl: "https://vdk-viber-runtime-prod.bot.botpress.host", botId: "c438fa25-e598-49a1-b9d9-32f6f7155aee" })
+      VdkEdgeWebchat.mount({ ...webchat, mode: "bubble", baseUrl: "https://vdk-viber-runtime-prod.bot.botpress.host", botId: "c438fa25-e598-49a1-b9d9-32f6f7155aee" })
     )
 </script></body></html>
